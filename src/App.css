@@ -1,0 +1,161 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-image: linear-gradient(rgb(96, 211, 97), rgb(223, 159, 107), rgb(156, 211, 232),rgb(232, 145, 226));
+  height: 1000px;
+}
+
+.Title{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: tomato;
+  padding: 20px;
+ font-size: 25px;
+}
+
+#head1{
+ color: white;
+ text-decoration: none;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#head1:hover{
+  color: black;
+}
+
+#heading{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#details_stud{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+}
+#add{
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top:-50px; 
+  position: absolute;
+  background-color: rgb(37, 65, 247);
+  color: white;
+  
+}
+.stud{
+  padding-bottom: 30px;
+  margin-left: 500px;
+  font-size: 40px;
+}
+/* .table{
+  margin-top: 50px;
+  margin-left: 30px;
+ border: 2px solid black;
+ background-color: rgb(223, 29, 29);
+
+} */
+th{
+  
+  padding: 10px 70px 10px 70px;
+  background-color: rgb(237, 130, 130);
+  font-size: 20px;
+}
+tr .row{
+  padding-right: 400px;
+   background-color: gray; 
+}
+/* table{
+  margin-left: 30px;
+  margin-top: 50px;
+  background-color: rgb(157, 177, 224);
+} */
+td{
+  
+  padding: 10px 70px 10px 70px;
+}
+.boxitem{
+  font-size: 40px;
+}
+#cancel{
+  border-radius: 10px;
+  background-color: rgb(215, 114, 114);
+  font-size: 20px;
+}
+#update{
+  border-radius: 10px;
+  background-color: rgb(132, 132, 240);
+  font-size: 20px;
+}
+#boxitems{
+  background-color: gray;
+}
+.crud {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table td {
+  width: 200px;
+  height: 30px;
+  background-color:rgb(42, 134, 194);
+  text-align: center;
+  color: white;
+}
+
+table td button {
+  padding: 5px 10px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+table td button.edit {
+  border: 1px solid green;
+  background-color: rgb(46, 224, 46);
+  color: white;
+}
+
+table td button.delete {
+  border: 1px solid red;
+  background-color: rgb(219, 19, 19);
+  color: white;
+}
+table td button.delete:hover {
+  background-color: rgb(92, 5, 5);
+}
+
+
+.addForm {
+  margin-top: 500px;
+  position: absolute;
+  margin-left: 300px;
+ 
+}
+.addForm input {
+  width: 230px;
+  height: 40px;
+  color: black;
+  border: 1px solid black ;
+  border-radius: 5px;
+  gap: 15px;
+  background-color: rgb(200, 244, 244);
+}
+.addForm button {
+  width: 135px;
+  color: white;
+  height: 45px;
+  background-color: rgb(58, 14, 215);
+  border-radius: 10px;
+  font-size: 25px;
+ 
+}
+.addForm button:hover {
+  background-color: rgb(106, 154, 106);
+}
